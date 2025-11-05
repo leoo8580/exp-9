@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; background:#f5f7fb; margin:0; padding:0; }
+.nav { background:#111827; padding:10px; display:flex; gap:10px; }
+.nav a { color:#fff; text-decoration:none; }
+.container { padding:20px; display:flex; justify-content:center; }

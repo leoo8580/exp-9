@@ -1,0 +1,72 @@
+.header {
+  background-color: #2f7d3b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.title {
+  text-align: center;
+  color: #2f7d3b;
+  margin-top: 20px;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.add-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: #2f7d3b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.del-btn {
+  background-color: #2f7d3b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #2f7d3b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
