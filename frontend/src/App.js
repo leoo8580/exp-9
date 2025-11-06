@@ -1,25 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import API from './api';  // ✅ Import API instance
 import './app.css';
 
 function App() {
-
-  // ✅ Test backend connection once when the app loads
-  useEffect(() => {
-    API.get('/products')
-      .then(res => {
-        console.log("✅ Backend connected successfully!");
-        console.log("Products:", res.data);
-      })
-      .catch(err => {
-        console.error("❌ Error connecting to backend:", err);
-      });
-  }, []);
-
   return (
     <Router>
       <div className="nav">
